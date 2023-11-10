@@ -32,7 +32,7 @@ for (let i = 0; i < numberOfSlides; i++) {
   dot.classList.add('dot') //Ajout classe 'dot' à chaque point
   dotsContainer.appendChild(dot) //Ajout point à l'element <div class="dots">
 }
-const firstDot = dotsContainer.querySelector('dot') //Ajout classe "dot_selected" au premier point
+const firstDot = dotsContainer.querySelector('.dot') //Ajout classe "dot_selected" au premier point
 if (firstDot) {
   firstDot.classList.add('dot_selected') //Styliser le premier bullet point actif
 }
